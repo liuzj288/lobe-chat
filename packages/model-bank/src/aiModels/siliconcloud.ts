@@ -9,7 +9,7 @@ const siliconcloudChatModels: AIChatModelCard[] = [
     },
     contextWindowTokens: 262_144,
     description:
-      "Kimi K2 Thinking 是最新、最强大的开源思考模型。它通过大幅扩展多步推理深度，并在 200–300 次连续工具调用中保持稳定的工具使用，在 Humanity's Last Exam (HLE)、BrowseComp 及其他基准测试中树立了新的标杆。同时，K2 Thinking 在编程、数学、逻辑推理和 Agent 场景中表现卓越。该模型基于混合专家（MoE）架构，总参数约 1T，支持 256K 上下文窗口并支持工具调用。",
+      "Kimi K2 Thinking is the latest and most powerful open-source thinking model. It significantly expands multi-step reasoning depth and maintains stable tool usage across 200-300 consecutive tool calls, setting new benchmarks in Humanity's Last Exam (HLE), BrowseComp and other benchmarks. K2 Thinking excels in programming, mathematics, logical reasoning and Agent scenarios. The model is based on Mixture-of-Experts (MoE) architecture with approximately 1T total parameters, supports 256K context window and tool calling.",
     displayName: 'Kimi K2 Thinking',
     id: 'moonshotai/Kimi-K2-Thinking',
     pricing: {
@@ -32,7 +32,7 @@ const siliconcloudChatModels: AIChatModelCard[] = [
     },
     contextWindowTokens: 262_144,
     description:
-      'Kimi K2 Thinking Turbo 是 Kimi K2 系列的 Turbo 版本，针对推理速度和吞吐进行了优化，同时保留 K2 Thinking 的多步推理与工具调用能力。该模型基于混合专家（MoE）架构，总参数约 1T，原生支持 256K 上下文并可稳定执行大规模工具调用，适用于对延迟和并发有更高要求的生产场景。',
+      'Kimi K2 Thinking Turbo is the Turbo version of the Kimi K2 series, optimized for reasoning speed and throughput while retaining K2 Thinking\'s multi-step reasoning and tool calling capabilities. The model is based on Mixture-of-Experts (MoE) architecture with approximately 1T total parameters, natively supports 256K context and can stably execute large-scale tool calls, suitable for production scenarios with higher latency and concurrency requirements.',
     displayName: 'Kimi K2 Thinking (Pro)',
     id: 'Pro/moonshotai/Kimi-K2-Thinking',
     pricing: {
@@ -55,7 +55,7 @@ const siliconcloudChatModels: AIChatModelCard[] = [
     },
     contextWindowTokens: 128_000,
     description:
-      'MiniMax-M2 为智能体重新定义了效率。它是一款紧凑、快速且经济高效的 MoE 模型，拥有 2300 亿总参数和 100 亿激活参数，专为编码和智能体任务的顶级性能而打造，同时保持强大的通用智能。仅需 100 亿激活参数，MiniMax-M2 就能提供与大规模模型相媲美的性能，使其成为高效率应用的理想选择。',
+      'MiniMax-M2 redefines efficiency for agents. It is a compact, fast and cost-effective MoE model with 230 billion total parameters and 10 billion activated parameters, specifically built for top-tier performance in coding and agent tasks while maintaining strong general intelligence. With just 10 billion activated parameters, MiniMax-M2 delivers performance comparable to large-scale models, making it an ideal choice for high-efficiency applications.',
     displayName: 'MiniMax-M2',
     id: 'MiniMaxAI/MiniMax-M2',
     pricing: {
@@ -75,7 +75,7 @@ const siliconcloudChatModels: AIChatModelCard[] = [
     },
     contextWindowTokens: 262_144,
     description:
-      'Qwen3-VL-32B-Instruct 是阿里巴巴通义千问团队推出的视觉语言模型，在多个视觉语言基准测试中取得了领先的 SOTA 性能。该模型支持百万像素级别的高分辨率图像输入，并具备强大的通用视觉理解、多语言 OCR、细粒度视觉定位和视觉对话能力。作为 Qwen3 系列中的视觉语言模型，它能够处理复杂的多模态任务，支持工具调用和前缀续写等高级功能。',
+      'Qwen3-VL-32B-Instruct is a vision-language model launched by Alibaba Tongyi Qianwen team, achieving leading SOTA performance across multiple vision-language benchmarks. The model supports million-pixel level high-resolution image input and possesses powerful general visual understanding, multilingual OCR, fine-grained visual localization and visual dialogue capabilities. As a vision-language model in the Qwen3 series, it can handle complex multimodal tasks and supports advanced features such as tool calling and prefix continuation.',
     displayName: 'Qwen3 VL 32B Instruct',
     id: 'Qwen/Qwen3-VL-32B-Instruct',
     pricing: {
@@ -96,7 +96,7 @@ const siliconcloudChatModels: AIChatModelCard[] = [
     },
     contextWindowTokens: 262_144,
     description:
-      'Qwen3-VL-32B-Thinking 是阿里巴巴通义千问团队推出的视觉语言模型中一个为复杂视觉推理任务特别优化的版本。该模型内置了"思考模式"，使其在回答问题前能够生成详细的中间推理步骤，从而显著增强其在需要多步逻辑、规划和复杂推理的任务上的表现。该模型支持百万像素级别的高分辨率图像输入，具备强大的通用视觉理解、多语言 OCR、细粒度视觉定位和视觉对话能力，并支持工具调用和前缀续写等功能。',
+      'Qwen3-VL-32B-Thinking is a version of Alibaba Tongyi Qianwen team\'s vision-language model specifically optimized for complex visual reasoning tasks. The model has built-in "thinking mode" that enables it to generate detailed intermediate reasoning steps before answering questions, significantly enhancing its performance on tasks requiring multi-step logic, planning and complex reasoning. The model supports million-pixel level high-resolution image input, possesses powerful general visual understanding, multilingual OCR, fine-grained visual localization and visual dialogue capabilities, and supports features such as tool calling and prefix continuation.',
     displayName: 'Qwen3 VL 32B Thinking',
     id: 'Qwen/Qwen3-VL-32B-Thinking',
     pricing: {

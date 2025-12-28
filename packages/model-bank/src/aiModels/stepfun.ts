@@ -10,7 +10,7 @@ const stepfunChatModels: AIChatModelCard[] = [
     },
     contextWindowTokens: 64_000,
     description:
-      '该模型拥有强大的视觉感知和复杂推理能力。可准确完成跨领域的复杂知识理解、数学与视觉信息的交叉分析，以及日常生活中的各类视觉分析问题。',
+      'This model possesses powerful visual perception and complex reasoning capabilities. It can accurately complete cross-domain complex knowledge understanding, cross-analysis of mathematics and visual information, and various visual analysis problems in daily life.',
     displayName: 'Step 3',
     enabled: true,
     id: 'step-3',
@@ -48,7 +48,7 @@ const stepfunChatModels: AIChatModelCard[] = [
     },
     contextWindowTokens: 100_000,
     description:
-      '该模型是拥有强大的图像理解能力的推理大模型，能够处理图像和文字信息，经过深度思考后输出文本生成文本内容。该模型在视觉推理领域表现突出，同时拥有第一梯队的数学、代码、文本推理能力。上下文长度为100k。',
+      'This model is a reasoning large model with powerful image understanding capabilities, able to process both image and text information, and generate text content after deep thinking. This model excels in visual reasoning while also possessing first-tier capabilities in mathematics, coding, and text reasoning. Context length is 100k.',
     displayName: 'Step R1 V Mini',
     id: 'step-r1-v-mini',
     pricing: {
@@ -69,7 +69,7 @@ const stepfunChatModels: AIChatModelCard[] = [
       search: true,
     },
     contextWindowTokens: 8000,
-    description: '小型模型，适合轻量级任务。',
+    description: 'Small model suitable for lightweight tasks.',
     displayName: 'Step 1 8K',
     id: 'step-1-8k',
     pricing: {
@@ -90,7 +90,7 @@ const stepfunChatModels: AIChatModelCard[] = [
       search: true,
     },
     contextWindowTokens: 32_000,
-    description: '支持中等长度的对话，适用于多种应用场景。',
+    description: 'Supports medium-length conversations, suitable for various application scenarios.',
     displayName: 'Step 1 32K',
     id: 'step-1-32k',
     pricing: {
@@ -111,7 +111,7 @@ const stepfunChatModels: AIChatModelCard[] = [
       search: true,
     },
     contextWindowTokens: 256_000,
-    description: '具备超长上下文处理能力，尤其适合长文档分析。',
+    description: 'Features ultra-long context processing capability, especially suitable for long document analysis.',
     displayName: 'Step 1 256K',
     id: 'step-1-256k',
     pricing: {
@@ -133,7 +133,7 @@ const stepfunChatModels: AIChatModelCard[] = [
     },
     contextWindowTokens: 8000,
     description:
-      '基于新一代自研Attention架构MFA的极速大模型，用极低成本达到和step1类似的效果，同时保持了更高的吞吐和更快响应时延。能够处理通用任务，在代码能力上具备特长。',
+      'Ultra-fast large model based on the new generation self-developed Attention architecture MFA, achieving similar performance to step1 at extremely low cost while maintaining higher throughput and faster response latency. Capable of handling general tasks with particular strength in code capabilities.',
     displayName: 'Step 2 Mini',
     enabled: true,
     id: 'step-2-mini',
@@ -156,7 +156,7 @@ const stepfunChatModels: AIChatModelCard[] = [
       search: true,
     },
     contextWindowTokens: 16_000,
-    description: '支持大规模上下文交互，适合复杂对话场景。',
+    description: 'Supports large-scale context interaction, suitable for complex conversation scenarios.',
     displayName: 'Step 2 16K',
     id: 'step-2-16k',
     pricing: {
@@ -177,7 +177,7 @@ const stepfunChatModels: AIChatModelCard[] = [
       search: true,
     },
     contextWindowTokens: 16_000,
-    description: 'step-2模型的实验版本，包含最新的特性，滚动更新中。不推荐在正式生产环境使用。',
+    description: 'Experimental version of the step-2 model, contains latest features with rolling updates. Not recommended for formal production environments.',
     displayName: 'Step 2 16K Exp',
     id: 'step-2-16k-exp',
     pricing: {
@@ -200,7 +200,7 @@ const stepfunChatModels: AIChatModelCard[] = [
       vision: true,
     },
     contextWindowTokens: 8000,
-    description: '小型视觉模型，适合基本的图文任务。',
+    description: 'Small vision model suitable for basic image-text tasks.',
     displayName: 'Step 1V 8K',
     id: 'step-1v-8k',
     pricing: {
@@ -222,7 +222,7 @@ const stepfunChatModels: AIChatModelCard[] = [
       vision: true,
     },
     contextWindowTokens: 32_000,
-    description: '支持视觉输入，增强多模态交互体验。',
+    description: 'Supports visual input, enhancing multimodal interaction experience.',
     displayName: 'Step 1V 32K',
     id: 'step-1v-32k',
     pricing: {
@@ -242,7 +242,7 @@ const stepfunChatModels: AIChatModelCard[] = [
       vision: true,
     },
     contextWindowTokens: 32_000,
-    description: '该模型拥有强大的图像理解能力。相比于 step-1v 系列模型，拥有更强的视觉性能。',
+    description: 'This model has powerful image understanding capabilities. Compared to the step-1v series models, it has stronger visual performance.',
     displayName: 'Step 1o Vision 32K',
     enabled: true,
     id: 'step-1o-vision-32k',
@@ -262,7 +262,7 @@ const stepfunChatModels: AIChatModelCard[] = [
     },
     contextWindowTokens: 32_000,
     description:
-      '该模型拥有强大的图像理解能力，在数理、代码领域强于1o。模型比1o更小，输出速度更快。',
+      'This model has powerful image understanding capabilities, stronger than 1o in mathematics and coding domains. The model is smaller than 1o with faster output speed.',
     displayName: 'Step 1o Turbo Vision',
     enabled: true,
     id: 'step-1o-turbo-vision',
@@ -282,7 +282,7 @@ const stepfunImageModels: AIImageModelCard[] = [
   // https://platform.stepfun.com/docs/llm/image
   {
     description:
-      '阶跃星辰新一代生图模型,该模型专注于图像生成任务,能够根据用户提供的文本描述,生成高质量的图像。新模型生成图片质感更真实，中英文文字生成能力更强。',
+      'StepFun\'s new generation image generation model focuses on image generation tasks, capable of generating high-quality images based on user-provided text descriptions. The new model generates more realistic images with stronger Chinese and English text generation capabilities.',
     displayName: 'Step 2X Large',
     enabled: true,
     id: 'step-2x-large',
@@ -302,7 +302,7 @@ const stepfunImageModels: AIImageModelCard[] = [
   },
   {
     description:
-      '该模型拥有强大的图像生成能力，支持文本描述作为输入方式。具备原生的中文支持，能够更好的理解和处理中文文本描述，并且能够更准确地捕捉文本描述中的语义信息，并将其转化为图像特征，从而实现更精准的图像生成。模型能够根据输入生成高分辨率、高质量的图像，并具备一定的风格迁移能力。',
+      'This model has powerful image generation capabilities, supporting text descriptions as input. Features native Chinese support for better understanding and processing of Chinese text descriptions, and can more accurately capture semantic information from text descriptions and convert it into image features for more precise image generation. The model can generate high-resolution, high-quality images based on input and has certain style transfer capabilities.',
     displayName: 'Step 1X Medium',
     enabled: true,
     id: 'step-1x-medium',
@@ -322,7 +322,7 @@ const stepfunImageModels: AIImageModelCard[] = [
   },
   {
     description:
-      '该模型专注于图像编辑任务，能够根据用户提供的图片和文本描述，对图片进行修改和增强。支持多种输入格式，包括文本描述和示例图像。模型能够理解用户的意图，并生成符合要求的图像编辑结果。',
+      'This model focuses on image editing tasks, capable of modifying and enhancing images based on user-provided images and text descriptions. Supports multiple input formats including text descriptions and example images. The model can understand user intent and generate image editing results that meet requirements.',
     displayName: 'Step 1X Edit',
     enabled: true,
     id: 'step-1x-edit',

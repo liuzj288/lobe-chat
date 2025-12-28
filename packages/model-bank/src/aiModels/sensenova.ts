@@ -11,7 +11,7 @@ const sensenovaChatModels: AIChatModelCard[] = [
     },
     contextWindowTokens: 131_072,
     description:
-      '通过对多模态、语言及推理数据的全面更新与训练策略的优化，新模型在多模态推理和泛化指令跟随能力上实现了显著提升，支持高达128k的上下文窗口，并在OCR与文旅IP识别等专项任务中表现卓越。',
+      'Through comprehensive updates to multimodal, language and reasoning data along with optimization of training strategies, the new model achieves significant improvements in multimodal reasoning and generalized instruction-following capabilities, supports up to 128k context window, and demonstrates excellence in specialized tasks such as OCR and cultural tourism IP recognition.',
     displayName: 'SenseNova V6.5 Pro',
     enabled: true,
     id: 'SenseNova-V6-5-Pro',
@@ -35,7 +35,7 @@ const sensenovaChatModels: AIChatModelCard[] = [
     },
     contextWindowTokens: 131_072,
     description:
-      '通过对多模态、语言及推理数据的全面更新与训练策略的优化，新模型在多模态推理和泛化指令跟随能力上实现了显著提升，支持高达128k的上下文窗口，并在OCR与文旅IP识别等专项任务中表现卓越。',
+      'Through comprehensive updates to multimodal, language and reasoning data along with optimization of training strategies, the new model achieves significant improvements in multimodal reasoning and generalized instruction-following capabilities, supports up to 128k context window, and demonstrates excellence in specialized tasks such as OCR and cultural tourism IP recognition.',
     displayName: 'SenseNova V6.5 Turbo',
     enabled: true,
     id: 'SenseNova-V6-5-Turbo',

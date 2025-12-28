@@ -7,7 +7,7 @@ const minimaxChatModels: AIChatModelCard[] = [
       reasoning: true,
     },
     contextWindowTokens: 204_800,
-    description: '专为高效编码与Agent工作流而生',
+    description: 'Designed specifically for efficient coding and Agent workflows',
     displayName: 'MiniMax M2',
     enabled: true,
     id: 'MiniMax-M2',
@@ -30,7 +30,7 @@ const minimaxChatModels: AIChatModelCard[] = [
       reasoning: true,
     },
     contextWindowTokens: 204_800,
-    description: '专为高效编码与Agent工作流而生，更高并发，商业使用。',
+    description: 'Designed specifically for efficient coding and Agent workflows, with higher concurrency for commercial use.',
     displayName: 'MiniMax M2 Stable',
     id: 'MiniMax-M2-Stable',
     maxOutput: 131_072,
@@ -52,7 +52,7 @@ const minimaxChatModels: AIChatModelCard[] = [
       reasoning: true,
     },
     contextWindowTokens: 1_000_192,
-    description: '全新自研推理模型。全球领先：80K 思维链 x 1M 输入，效果比肩海外顶尖模型',
+    description: 'Brand new self-developed reasoning model. Globally leading: 80K chain-of-thought x 1M input, performance on par with top international models',
     displayName: 'MiniMax M1',
     id: 'MiniMax-M1',
     maxOutput: 40_000,
@@ -73,7 +73,7 @@ const minimaxChatModels: AIChatModelCard[] = [
     },
     contextWindowTokens: 1_000_192,
     description:
-      '在 MiniMax-01系列模型中，我们做了大胆创新：首次大规模实现线性注意力机制，传统 Transformer架构不再是唯一的选择。这个模型的参数量高达4560亿，其中单次激活459亿。模型综合性能比肩海外顶尖模型，同时能够高效处理全球最长400万token的上下文，是GPT-4o的32倍，Claude-3.5-Sonnet的20倍。',
+      'In the MiniMax-01 series models, we made bold innovations: implementing linear attention mechanism at scale for the first time, making traditional Transformer architecture no longer the only choice. This model has up to 456 billion parameters with 45.9 billion activated per pass. The model\'s comprehensive performance matches top international models while efficiently handling the world\'s longest context of 4 million tokens, 32x that of GPT-4o and 20x that of Claude-3.5-Sonnet.',
     displayName: 'MiniMax Text 01',
     id: 'MiniMax-Text-01',
     maxOutput: 40_000,
@@ -91,7 +91,7 @@ const minimaxChatModels: AIChatModelCard[] = [
 
 const minimaxImageModels: AIImageModelCard[] = [
   {
-    description: '全新图像生成模型，画面表现细腻，支持文生图、图生图',
+    description: 'Brand new image generation model with delicate visual performance, supports text-to-image and image-to-image generation',
     displayName: 'Image 01',
     enabled: true,
     id: 'image-01',
@@ -109,7 +109,7 @@ const minimaxImageModels: AIImageModelCard[] = [
     type: 'image',
   },
   {
-    description: '图像生成模型，画面表现细腻，支持文生图并进行画风设置',
+    description: 'Image generation model with delicate visual performance, supports text-to-image generation with art style configuration',
     displayName: 'Image 01 Live',
     enabled: true,
     id: 'image-01-live',
