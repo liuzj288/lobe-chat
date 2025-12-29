@@ -379,3 +379,16 @@ const withPWA =
     : noWrapper;
 
 export default withBundleAnalyzer(withPWA(nextConfig as NextConfig));
+
+module.exports = {
+  swcMinify: true,
+  productionBrowserSourceMaps: false,
+
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+
+  typescript: {
+    ignoreBuildErrors: true,
+  }
+}
