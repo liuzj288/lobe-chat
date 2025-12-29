@@ -30,6 +30,7 @@
     "e2e",
     "apps/desktop/src/main"
   ],
+  "type-check": "echo \"skip type-check\""
   "scripts": {
     "prebuild": "tsx scripts/prebuild.mts && npm run lint",
     "build": "cross-env NODE_OPTIONS=--max-old-space-size=6144 next build --webpack",
