@@ -422,7 +422,6 @@
     "overrides": {
       "stylelint-config-clean-order": "7.0.0"
     }
-
- "type-check": "echo \"skip type-check\""
-  }
+  },
+  "type-check": "echo \"skip type-check\""
 }
